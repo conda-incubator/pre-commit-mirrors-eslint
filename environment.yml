@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+dependencies:
+  - eslint=8.10.0
