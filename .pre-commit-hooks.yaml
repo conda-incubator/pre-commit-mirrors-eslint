@@ -3,5 +3,5 @@
   description: Pluggable JavaScript linter
   entry: eslint
   language: conda
-  types: [text]
+  types: [text, javascript]
   args: ["--fix"]
