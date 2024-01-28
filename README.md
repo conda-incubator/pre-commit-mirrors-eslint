@@ -1,17 +1,18 @@
-# eslint pre-commit hook
+# eslint mirror
 
-Hook for eslint with conda as a language.
+Mirror of eslint for pre-commit with conda as a language.
 
-- For pre-commit: see https://github.com/pre-commit/pre-commit
-- For eslint: see https://github.com/eslint/eslint
+For pre-commit: see [here](https://github.com/pre-commit/pre-commit)
 
-### Using prettier with pre-commit and conda:
+For eslint: see [here](https://github.com/eslint/eslint)
 
-Add this to your `.pre-commit-config.yaml`:
+## Using eslint with pre-commit and conda:
+
+Add this to your `.pre-commit-config.yaml`
 
 ```yaml
-- repo: https://github.com/Quantco/pre-commit-mirrors-eslint
-  rev: "" # The git sha / tag you want to point to
-  hooks:
-    - id: eslint-conda
+ - repo: https://github.com/quantco/pre-commit-mirrors-eslint
+   rev: ''  # Use the sha / tag you want to point at
+   hooks:
+     - id: eslint-conda
 ```
